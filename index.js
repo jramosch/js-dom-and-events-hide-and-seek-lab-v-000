@@ -11,5 +11,9 @@ function deepestChild() {
 }
 
 function increaseRanyBy(n) {
-  const lis = document.querySelectorAll('ul.ranked-list')
+  const lis = document.querySelectorAll('ul.ranked-list li')
+  
+  for (let i = 0; 1 < lis.length; i++) {
+    list[i].innerHTML = (i + 1).toString()
+  }
 }
